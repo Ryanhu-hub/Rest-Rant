@@ -29,6 +29,7 @@ function edit_form(data) {
               className="form-control"
               id="cuisines"
               name="cuisines"
+              value={data.place.cuisines}
               required
             />
           </div>
