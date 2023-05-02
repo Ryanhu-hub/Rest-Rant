@@ -27,6 +27,7 @@ router.get('/new', (req, res) => {
   res.render('places/new')
 })
 
+//here's my change
 
 router.get('/:id', (req, res) => {
   db.Place.findById(req.params.id)
